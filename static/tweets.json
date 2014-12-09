@@ -1,0 +1,13 @@
+{
+  "nodes":[
+    {"name":"Tweet","group":1, "text": "lasd"},
+    {"name":"Reply1","group":2},
+    {"name":"Reply2","group":3},
+    {"name":"Reply3","group":4}
+  ],
+  "links":[
+    {"source":1,"target":0,"value":1},
+    {"source":2,"target":0,"value":8},
+    {"source":3,"target":0,"value":10}
+  ]
+}

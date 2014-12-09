@@ -1,0 +1,5 @@
+tweet id
+	- search all tweets that mentions the tweet id's author (@screenname)
+	- filter using the in_reply_to_status_id/in_reply_to_status_id_str value with the tweet id
+	- for each tweet that matches the filter:
+		- get information about it such as retweet count, favorites count and search for its replies

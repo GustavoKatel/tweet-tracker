@@ -1,0 +1,93 @@
+svg, body {
+	background: black;
+}
+
+.node {
+	stroke: #fff;
+	stroke-width: 1.5px;
+	cursor: pointer;
+}
+
+.link {
+	stroke: #999;
+	stroke-opacity: .6;
+}
+
+#tooltip {
+	position: absolute;
+	text-align: left;
+	min-width: 200px;
+	max-width: 400px;
+	min-height: 90px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+	/* z-index: -1; */
+	opacity: 0;
+	left: 305px;
+	top: 5px;
+}
+
+#tooltip > img {
+	width: 80px;
+	float: left;
+	margin: 5px;
+}
+
+#tooltip > .tweet_info_text {
+	/* float: left; */
+}
+
+#tooltip > .tweet_info_text > div {
+	margin-bottom: 2px;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+#tooltip > .tweet_info_text > .tweet_text {
+	margin-top: 4px;
+}
+
+#tooltip > .tweet_info_text > .tweet_clearboth {
+	clear: both;
+}
+
+#tgraph {
+	/* width: 75%; */
+	float: right;
+	padding: 0 15px;
+}
+
+#sidebar {
+	width: auto;
+	float: left;
+	padding: 0 15px;
+}
+
+input {
+	background-image: none;
+	background: transparent;
+	font-size: 1.1em;
+	color: #fff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #1F77B4;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+button {
+	background: #1F77B4;
+	border: none;
+	font-size: 0.9em;
+	color: #fff;
+	padding: 7px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	width: 100%;
+	text-transform: uppercase;
+}

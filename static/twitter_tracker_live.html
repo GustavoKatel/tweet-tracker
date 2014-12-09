@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>_- Twitter Tracker -_</title>
+		
+		<script src="/js/d3.v3.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.min.js"></script>
+
+		<script src="/js/socket.io.js"></script>
+		<script type="text/javascript" src="js/tgraph.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/twitter_tracker.css">
+
+
+	</head>
+
+	<body onload="ready();">
+
+		<div id="sidebar">
+			Information Visualization<br>
+			Search:<br>
+			<input type="text" id="query" autofocus/><br>
+			<button id="but_search_query">Search</button><br>
+
+			Follow tweet:<br>
+			<input type="text" id="tweet_url"/><br>
+			<button id="but_follow_tweet">Follow</button><br>
+			<br><br><br><br><br>
+			<button id="stop">Stop!</button>
+
+
+		</div>
+
+		<div id="tgraph"></div>
+
+		<div id="tooltip">
+			<img src=""/>
+			<div class="tweet_info_text">
+				<div class="tweet_name"></div>
+				<div class="tweet_screen_name"></div>
+				<div class="tweet_followers"></div>
+				<div class="tweet_following"></div>
+				<div class="tweet_clearboth"></div>
+				<div class="tweet_retweets"></div>
+				<div class="tweet_favorites"></div>
+				<div class="tweet_text"></div>
+			</div>
+		</div>
+	</body>
+
+</html>
